@@ -3,6 +3,7 @@ import { GlobalProvider } from "./context/GlobalState";
 import TaskList from "./components/TaskList";
 import TaskForm from "./components/TaskForm";
 import Heading from "./components/Heading";
+import "./styles/tailwind.css";
 
 function App() {
   return (
