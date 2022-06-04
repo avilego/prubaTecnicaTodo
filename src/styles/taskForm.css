@@ -1,0 +1,39 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+}
+
+.form {
+  background: rgba(235, 206, 206, 0.1);
+  padding: 2.5rem;
+}
+
+.title-form {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.div-form {
+  margin-bottom: 1.25rem;
+}
+.div-form input,
+.div-form textarea {
+  padding: 0.75rem 1rem;
+  background-color: white;
+  width: 100%;
+  background: #f7f1f1;
+  color: black;
+}
+
+.form-btn {
+  padding: 0.5rem 1rem;
+  margin-top: 1.25rem;
+  background-color: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}

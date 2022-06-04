@@ -1,0 +1,49 @@
+.task {
+  display: flex;
+  margin: 5px 5px;
+  padding: 1.5rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 50%;
+}
+
+.task-inline {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.task-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 20px;
+}
+
+.task-btn {
+  padding: 5px 5px;
+  margin: 5px auto;
+  background-color: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  cursor: pointer;
+  width: 200%;
+}
+
+.task-text {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.task-title {
+  position: relative;
+  transition: opacity 0.4s linear;
+}
+
+.task-title.task-done {
+  opacity: 0.6;
+  text-decoration: line-through;
+}

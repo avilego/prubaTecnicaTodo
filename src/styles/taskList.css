@@ -1,0 +1,14 @@
+.task-list {
+  display: flex;
+  justify-content: center;
+}
+
+.no-task {
+  display: flex;
+  margin: 5px 5px;
+  padding: 1.5rem 5rem;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 30%;
+}
